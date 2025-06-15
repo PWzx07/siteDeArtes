@@ -1,0 +1,130 @@
+/* Fontes Google */
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #fffaf6;
+  color: #333;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Container padrão */
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 1.5rem;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #4d1a1a;
+  color: white;
+  padding: 2rem 0;
+  text-align: center;
+}
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Seções */
+main h2 {
+  color: #8e2a2a;
+  margin-top: 2rem;
+  font-family: 'Playfair Display', serif;
+}
+h4{
+  color: #8e2a2a;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+.refs a {
+  color: #8e2a2a;
+  text-decoration: none;
+}
+.refs a:hover {
+  text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+  background-color: #4d1a1a;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+/* Responsivo básico */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+}
+label {
+  font-weight: bold;
+}
+
+button {
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #8e2a2a;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: #aa3a3a;
+}
+
+input[type="range"] {
+  vertical-align: middle;
+}
+
+span {
+  font-weight: bold;
+}
+.grade-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card h3 {
+  margin: 0.5rem 1rem 0 1rem;
+  color: #8e2a2a;
+  font-size: 1.2rem;
+}
+
+.card p {
+  margin: 0.5rem 1rem 1rem 1rem;
+  font-size: 0.95rem;
+  color: #444;
+}
