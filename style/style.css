@@ -2,8 +2,12 @@
     --BarroQueimado:       #8B5E3C;
     --PalhaDeDende:        #D8B76E;
     --CobreDoReconcavo:    #C46C4E;
-    --AzulRendaDoMar:      #3C6E91;
+    --AzulRendaDoMar:      #8e2a2a;
     --BrancoAreiadeItapua: #F4F0EC;
+}
+
+*{
+  font-family: 'Playfair Display', serif;
 }
 
 body{
@@ -83,7 +87,7 @@ li{
     color: var(--AzulRendaDoMar);
 }
 
-@media screen and (min-width: 375px) and (max-width: 412px){
+@media screen and (min-width: 375px) and (max-width: 500px){
     body{
         font-size: 1rem;      
     }
@@ -127,4 +131,39 @@ li{
         padding: 1rem;
         font-size: 2rem;
     }
+}
+
+#navegacao{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#navegacao{
+  list-style: none;
+  text-decoration: none;
+}
+
+#navegacao{
+  position: relative;
+  left: -20px;
+}
+
+button {
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background: #8e2a2a;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background: var(--CobreDoReconcavo);
+}
+
+h1{
+    color: antiquewhite;
 }

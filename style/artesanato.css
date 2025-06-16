@@ -7,6 +7,10 @@ body {
   line-height: 1.6;
 }
 
+*{
+  font-family: 'Playfair Display', serif;
+}
+
 /* Container padrão */
 .container {
   max-width: 900px;
@@ -129,15 +133,19 @@ span {
   color: #444;
 }
 
-ul{
+#navegacao{
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-evenly;
   align-items: center;
-  gap: 1rem;
 }
 
-a, li{
-  text-decoration: none;
+#navegacao{
   list-style: none;
-  color: palegreen;
+  text-decoration: none;
+}
+
+#navegacao{
+  position: relative;
+  left: -20px;
 }
