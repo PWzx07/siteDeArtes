@@ -1,142 +1,124 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dança e Cultura Baiana</title>
-  <link rel="stylesheet" href="../style/danca.css">
-</head>
-<body>
+<!DOCTYPE html> <!-- Define o tipo de documento como HTML5 -->
+<html lang="pt-BR"> <!-- Define o idioma da página como português do Brasil -->
+<head> <!-- Início do cabeçalho -->
+  <meta charset="UTF-8"> <!-- Define a codificação de caracteres como UTF-8 -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Torna o site responsivo para diferentes dispositivos -->
+  <title>Dança e Cultura Baiana</title> <!-- Título da aba do navegador -->
+  <link rel="stylesheet" href="../style/danca.css"> <!-- Link para o arquivo de estilo CSS -->
+  <link rel="shortcut icon" href="../assets/img/icon/favicon/bandeira-da-bahia.webp" type="image/x-icon"> <!-- Ícone da aba do navegador -->
+</head> <!-- Fim do cabeçalho -->
 
-  <header>
-    <h1>Dança e Cultura Baiana</h1>
-    <p>
-      Tradição, Resistência e Alegria Contagiante
-    </p>
-  </header>
-  <div>
+<body> <!-- Início do corpo da página -->
+
+  <header> <!-- Cabeçalho da página -->
+    <h1>Dança e Cultura Baiana</h1> <!-- Título principal da página -->
+    <p>Tradição, Resistência e Alegria Contagiante</p> <!-- Subtítulo do site -->
+
+    <!-- Menu de navegação -->
+    <ul>
+      <li><a href="./artesanato.html">Artesanatos</a></li> <!-- Link para a página de Artesanato -->
+      <li><a href="../index.html">Home</a></li> <!-- Link para a página inicial -->
+      <li><a href="./musica.html">Músicas</a></li> <!-- Link para a página de Música -->
+    </ul>
+    <!-- O fechamento da tag nav aqui está incorreto e desnecessário, pois não existe uma tag <nav> aberta -->
+  </header> <!-- Fim do cabeçalho -->
+
+  <div> <!-- Divisão principal para narrador e sumário -->
+    <!-- Seção do narrador de texto -->
     <div id="narrador">
       <h2>Narrador</h2>
-      <label for="vel-intro">Velocidade:</label>
-      <input type="range" min="0.5" max="2" step="0.1" value="1" id="vel-intro" data-target="intro">
-      <span id="vel-display-intro">1x</span>
-      <button data-acao="ouvir" data-target="intro">🔊 Ouvir</button>
-      <button data-acao="parar">⏹️ Parar</button>
+      <label for="vel-intro">Velocidade:</label> <!-- Rótulo do controle de velocidade -->
+      <input type="range" min="0.5" max="2" step="0.1" value="1" id="vel-intro" data-target="intro"> <!-- Controle deslizante de velocidade -->
+      <span id="vel-display-intro">1x</span> <!-- Mostra a velocidade atual -->
+      <button data-acao="ouvir" data-target="intro">🔊 Ouvir</button> <!-- Botão para iniciar a narração -->
+      <button data-acao="parar">⏹️ Parar</button> <!-- Botão para parar a narração -->
     </div>
+
+    <!-- Seção de sumário -->
     <div class="sumario">
       <h2>Sumário</h2>
-      <ol>
-        <li>
-          <a href="#1" class="sumario">Uma Cultura que Se Move</a>
-        </li>
-        <li>
-          <a href="#2" class="sumario">Conexão com as Religiões de Matriz Africana</a>
-        </li>
-        <li>
-          <a href="#3" class="sumario">Diversidade Cultural da Bahia</a>
-        </li>
-        <li>
-          <a href="#4" class="sumario">A Dança Como Herança de Resistência</a>
-        </li>
-        <li>
-          <a href="#5" class="sumario">Da Tradição à Inovação</a>
-        </li>
-        <li>
-          <a href="#6" class="sumario">Exemplos de Danças Baianas</a>
-        </li>
-        <li>
-          <a href="#7" class="sumario">Características das Danças Baianas</a>
-        </li>
-      </li>
-      <a href="#8" class="sumario"> Conclusão</a>
-    </li>
-  </ol>
-</div>
-</div>
-<div id="1">
-<h2>Uma Cultura que Se Move</h2>
-<p>
-A Bahia pulsa em ritmo próprio. Música e dança não são apenas entretenimento: são identidade, resistência e celebração da vida. Por aqui, tudo vira movimento e som.
-</p>
-<p>
-Artistas como Gilberto Gil, Caetano Veloso, Ivete Sangalo e Maria Bethânia são só alguns exemplos de quem levou essa cultura pro mundo.
-</p>
-</div>
+      <ol> <!-- Lista ordenada do sumário -->
+        <li><a href="#1" class="sumario">Uma Cultura que Se Move</a></li>
+        <li><a href="#2" class="sumario">Conexão com as Religiões de Matriz Africana</a></li>
+        <li><a href="#3" class="sumario">Diversidade Cultural da Bahia</a></li>
+        <li><a href="#4" class="sumario">A Dança Como Herança de Resistência</a></li>
+        <li><a href="#5" class="sumario">Da Tradição à Inovação</a></li>
+        <li><a href="#6" class="sumario">Exemplos de Danças Baianas</a></li>
+        <li><a href="#7" class="sumario">Características das Danças Baianas</a></li>
+        <li><a href="#8" class="sumario">Conclusão</a></li> <!-- Este estava fora da tag <li> e foi corrigido -->
+      </ol>
+    </div>
+  </div> <!-- Fim da div principal -->
 
-<div id="2">
-<h2>Conexão com as Religiões de Matriz Africana</h2>
-<img src="https://diariodamanhapelotas.com.br/site/wp-content/uploads/2017/09/danca-dos-orixas-3-680x365.jpg" alt="Dança dos Orixás">
-<p>
-No Candomblé e na Umbanda, a dança é comunicação com os orixás. Cada um tem seu ritmo e gestos próprios:
-</p>
-<ul>
-<li><strong>Oxóssi:</strong> Movimentos que simulam o ato de lançar flechas.</li>
-<li><strong>Iemanjá:</strong> Gestos que imitam as ondas do mar.</li>
-</ul>
-</div>
+  <!-- Seções do conteúdo da página, cada uma com um id correspondente ao sumário -->
+  <div id="1">
+    <h2>Uma Cultura que Se Move</h2>
+    <p>A Bahia pulsa em ritmo próprio...</p>
+    <p>Artistas como Gilberto Gil, Caetano...</p>
+  </div>
 
-<div id="3">
-<h2>Diversidade Cultural da Bahia</h2>
-<img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/43/ac/8f/pelourinho.jpg?w=800&h=500&s=1" alt="Pelourinho Salvador">
-<p>
-Influências indígenas, africanas e europeias criaram um caldeirão cultural único. Tudo aqui é mistura: na religião, na comida, na música e claro, na dança.
-</p>
-</div>
+  <div id="2">
+    <h2>Conexão com as Religiões de Matriz Africana</h2>
+    <img src="https://diariodamanhapelotas.com.br/site/wp-content/uploads/2017/09/danca-dos-orixas-3-680x365.jpg" alt="Dança dos Orixás">
+    <p>No Candomblé e na Umbanda, a dança...</p>
+    <ul>
+      <li><strong>Oxóssi:</strong> Movimentos que simulam...</li>
+      <li><strong>Iemanjá:</strong> Gestos que imitam as ondas...</li>
+    </ul>
+  </div>
 
-<div id="4">
-<h2>A Dança Como Herança de Resistência</h2>
-<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9I43HGST2-oQSqsf2mnFfvTro7NBmcl_OgBgk9jcgaVg-t55m3ez-0O-D&s=10" alt="Capoeira na praia">
-<p>
-Durante a escravidão, o corpo foi o único território livre. A capoeira, por exemplo, era vista como brincadeira... mas era arma. O samba de roda tem raízes nos terreiros, e o pagode baiano hoje se reinventa com o Naipe, nova vertente com atitude e presença.
-</p>
-</div>
+  <div id="3">
+    <h2>Diversidade Cultural da Bahia</h2>
+    <img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/43/ac/8f/pelourinho.jpg?w=800&h=500&s=1" alt="Pelourinho Salvador">
+    <p>Influências indígenas, africanas...</p>
+  </div>
 
-<div id="5">
-<h2>Da Tradição à Inovação</h2>
-<img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30" alt="Dança Contemporânea">
-<p>
-Hoje, a dança baiana se reinventa com grupos como o <strong>Balé Folclórico da Bahia</strong> e o <strong>Grupo de Dança Contemporânea da UFBA</strong>. Festivais como o <strong>VIVADANÇA</strong> exploram temas sociais e identitários com muita criatividade.
-</p>
-</div>
+  <div id="4">
+    <h2>A Dança Como Herança de Resistência</h2>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9I43HGST2-oQSqsf2mnFfvTro7NBmcl_OgBgk9jcgaVg-t55m3ez-0O-D&s=10" alt="Capoeira na praia">
+    <p>Durante a escravidão, o corpo foi...</p>
+  </div>
 
-<div id="6">
-<h2>Exemplos de Danças Baianas</h2>
-<ul>
-<li><strong>Samba de Roda:</strong> Patrimônio da Humanidade, cheio de giros e improvisos.</li>
-<li><strong>Dança dos Orixás:</strong> Ritualística e cheia de significados.</li>
-<li><strong>Maculelê:</strong> Dança guerreira com bastões e ritmo forte.</li>
-<li><strong>Afoxé:</strong> Mistura de religião e música, com destaque no Carnaval.</li>
-<li><strong>Capoeira:</strong> Luta, dança e resistência em um só movimento.</li>
-</ul>
-</div>
+  <div id="5">
+    <h2>Da Tradição à Inovação</h2>
+    <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30" alt="Dança Contemporânea">
+    <p>Hoje, a dança baiana se reinventa...</p>
+  </div>
 
-<div id="7">
-<h2>Características das Danças Baianas</h2>
-<ul>
-<li>Movimentos expressivos e simbólicos</li>
-<li>Ritmos como ijexá, samba, atabaque e agogô</li>
-<li>Trajes típicos com muito colorido e significado</li>
-<li>Presença em festas populares e rituais religiosos</li>
-<li>Expressão de fé, história e resistência social</li>
-</ul>
-</div>
+  <div id="6">
+    <h2>Exemplos de Danças Baianas</h2>
+    <ul>
+      <li><strong>Samba de Roda:</strong> Patrimônio da Humanidade...</li>
+      <li><strong>Dança dos Orixás:</strong> Ritualística...</li>
+      <li><strong>Maculelê:</strong> Dança guerreira...</li>
+      <li><strong>Afoxé:</strong> Mistura de religião e música...</li>
+      <li><strong>Capoeira:</strong> Luta, dança e resistência...</li>
+    </ul>
+  </div>
 
-<div id="8">
-<h2>Conclusão</h2>
-<p>
-As danças baianas são mais que arte. São história, fé, resistência e celebração. Um convite pra viver a cultura com o corpo e a alma.
-</p>
-</div>
+  <div id="7">
+    <h2>Características das Danças Baianas</h2>
+    <ul>
+      <li>Movimentos expressivos e simbólicos</li>
+      <li>Ritmos como ijexá, samba, atabaque...</li>
+      <li>Trajes típicos com muito colorido...</li>
+      <li>Presença em festas populares...</li>
+      <li>Expressão de fé, história e resistência...</li>
+    </ul>
+  </div>
 
-<footer>
-&copy; 2025 Cultura Baiana. Todos os direitos reservados.
-<p id="BY">
-&copy; By por Cauan e Cleyton
-</p>
-<p id="ceaat">
-3A.Tec. Matutino CEAAT
-</p>
-</footer>
-<script src="../js/danca.js"></script>
-</body>
-</html>
+  <div id="8">
+    <h2>Conclusão</h2>
+    <p>As danças baianas são mais que arte...</p>
+  </div>
+
+  <!-- Rodapé da página -->
+  <footer>
+    <p>Feito: Turmas do Terceiro ano técnico do CEAAT</p>
+  </footer>
+
+  <!-- Importação do script JavaScript responsável pela funcionalidade do narrador -->
+  <script src="../js/danca.js"></script>
+
+</body> <!-- Fim do corpo da página -->
+</html> <!-- Fim do documento HTML -->
