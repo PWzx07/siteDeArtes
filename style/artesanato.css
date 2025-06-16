@@ -128,3 +128,16 @@ span {
   font-size: 0.95rem;
   color: #444;
 }
+
+ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+a, li{
+  text-decoration: none;
+  list-style: none;
+  color: palegreen;
+}
