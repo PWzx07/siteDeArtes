@@ -1,7 +1,3 @@
-Perfeito, PW! Aqui vai um modelo de README bem profissional, claro e organizado, baseado nas suas 4 páginas (Home, Música, Dança e Artesanato) sobre Cultura Baiana. 🎶🎭🎨🇧🇷
-
----
-
 # 🎨 Cultura Baiana — Projeto Educacional
 
 ## 📑 Descrição
@@ -73,7 +69,3 @@ O projeto tem como principal objetivo:
 ## 📜 Licença
 
 Este projeto é de caráter **educacional**, sem fins lucrativos, e livre para uso e adaptação para finalidades acadêmicas e culturais.
-
----
-
-Se quiser, posso gerar a versão já formatada pra você colar direto no seu GitHub. Quer, chefe? 💪🔥
