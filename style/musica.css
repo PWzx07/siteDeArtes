@@ -77,3 +77,20 @@ button{
 button:hover{
     background-color: rgb(198, 231, 220);
 }
+
+@media screen and (min-width: 375px) and (max-width: 500px){
+    #artesanato{
+        bottom: -1rem;
+        left: 0.5rem;
+    }
+
+    #danca{
+        bottom: -1rem;
+        left: 9.25rem;
+    }
+
+    #home{
+        bottom: -1rem;
+        left: 18rem;
+    }
+}
