@@ -167,3 +167,56 @@ button:hover {
 h1{
     color: antiquewhite;
 }
+
+#modal{
+    display: none; /* Esconde o modal por padrão */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+}
+
+#modal-content {
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 5px;
+  width: 65%;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  gap: 1rem;
+  font-size: 18px;
+}
+
+#close{
+    position: absolute;
+    bottom: 91%;
+    left: 95%;
+    background-color: #fffff000;
+    color: rgb(250, 248, 248);
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#close:hover{
+    color: #dd2626;
+}
+
+#open{
+    background-color: #fffff000;
+    border: solid white 1px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    width: 2.5rem;
+    height: 2.45rem;
+    text-align: center;
+    font-style: oblique;
+}
+
+#open:hover{
+    color: #8e2a2a;
+    border: #8e2a2a solid 2px;
+}

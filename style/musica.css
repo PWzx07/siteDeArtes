@@ -56,41 +56,13 @@ button{
     border: none;
 }
 
-#artesanato{
-    position: absolute;
-    bottom: -1rem;
-    left: 15rem;
-}
-
-#danca{
-    position: absolute;
-    bottom: -1rem;
-    left: 36.5rem;
-}
-
-#home{
-    position: absolute;
-    bottom: -1rem;
-    left: 55rem;
-}
-
 button:hover{
     background-color: rgb(198, 231, 220);
 }
 
-@media screen and (min-width: 375px) and (max-width: 500px){
-    #artesanato{
-        bottom: -1rem;
-        left: 0.5rem;
-    }
-
-    #danca{
-        bottom: -1rem;
-        left: 9.25rem;
-    }
-
-    #home{
-        bottom: -1rem;
-        left: 18rem;
+@media screen and (min-width: 360px) and (max-width: 500px){
+    iframe{
+        width: 90%; 
+        height:170; 
     }
 }
