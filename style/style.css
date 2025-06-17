@@ -87,52 +87,6 @@ li{
     color: var(--AzulRendaDoMar);
 }
 
-@media screen and (min-width: 375px) and (max-width: 500px){
-    body{
-        font-size: 1rem;      
-    }
-
-    nav{
-        padding: 1rem;
-        gap: 1rem;
-    }
-
-    .title{
-        font-size: 3rem;
-    }
-
-    #sobre{
-        padding: 1rem;
-        gap: 1rem;
-        display: flex;
-        flex-direction: column; 
-    }
-
-    .image{
-        width: 250px;
-        border-radius: 25px;
-    }
-
-    #informe{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .info{
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 0.5rem;
-        padding: 1rem;
-        font-size: 2rem;
-    }
-}
-
 #navegacao{
   display: flex;
   flex-direction: row;
@@ -219,4 +173,61 @@ h1{
 #open:hover{
     color: #8e2a2a;
     border: #8e2a2a solid 2px;
+}
+
+@media screen and (min-width: 375px) and (max-width: 500px){
+    body{
+        font-size: 1rem;      
+    }
+
+    nav{
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    .title{
+        font-size: 3rem;
+    }
+
+    #sobre{
+        padding: 1rem;
+        gap: 1rem;
+        display: flex;
+        flex-direction: column; 
+    }
+
+    .image{
+        width: 250px;
+        border-radius: 25px;
+    }
+
+    #informe{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .info{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 0.5rem;
+        padding: 1rem;
+        font-size: 2rem;
+    }
+
+    #modal-content {
+        background-color: white;
+        margin: 15% auto;
+        padding: 20px;
+        border-radius: 5px;
+        width: 90%;
+        box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+        gap: 1rem;
+        font-size: 16px;
+    }
 }
